@@ -1,0 +1,78 @@
+.right-sidebar {
+  flex: 3.5;
+}
+
+.right-sidebar-wrapper {
+  padding: 20px 20px 0 0;
+}
+
+.featured-container {
+  display: flex;
+  align-items: center;
+}
+
+.birthday-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.birthday-text {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.right-sidebar-ad {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.right-sidebar-title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.right-sidebar-friend-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.right-sidebar-info {
+  margin-bottom: 30px;
+}
+
+.right-sidebar-info-item {
+  margin-bottom: 10px;
+}
+
+.right-sidebar-info-key {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.right-sidebar-info-value {
+  font-weight: 300;
+}
+
+.right-sidebar-following {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.right-sidebar-follower {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.right-sidebar-follower-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}

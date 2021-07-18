@@ -1,0 +1,57 @@
+.left-sidebar {
+  flex: 2.5;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(190, 190, 190);
+  border-radius: 5px;
+}
+
+.left-sidebar-wrapper {
+  padding: 20px;
+}
+
+.left-sidebar-options {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.left-sidebar-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.left-sidebar-icon {
+  margin-right: 15px;
+}
+
+.left-sidebar-button {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.left-sidebar-hr {
+  margin: 20px 0;
+}
+
+.left-sidebar-friend-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
